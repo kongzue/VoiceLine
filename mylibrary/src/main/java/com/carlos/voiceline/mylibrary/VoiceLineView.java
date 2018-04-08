@@ -19,6 +19,10 @@ import java.util.List;
  * 自定义声音振动曲线view
  */
 public class VoiceLineView extends View {
+
+    //总开关，关闭后一切归于平静...（Edit By Kongzue）
+    public boolean isRun = false;
+
     private final int LINE = 0;
     private final int RECT = 1;
 
@@ -105,7 +109,7 @@ public class VoiceLineView extends View {
             drawVoiceRect(canvas);
         } else {
             drawMiddleLine(canvas);
-            drawVoiceLine(canvas);
+            if (isRun)drawVoiceLine(canvas);
         }
         run();
     }
