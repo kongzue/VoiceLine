@@ -4,7 +4,7 @@
 ## 修改
 - 增加属性“isRun”来让抖动的贝塞尔曲线归于平静...
 
-### 原项目：
+## 原项目：
 原项目请访问：https://github.com/ws123/VoiceLine
 一个可以根据麦克风音量大小，显示一些波形效果的控件。一共有两种效果，波开和矩形，如下。也有一些自定义属性，包括波形的颜色，灵敏度，间隔等。
 
@@ -16,7 +16,7 @@
 ```groovy
 compile 'com.carlos.voiceline:mylibrary:1.0.6'
 ```
-####自定义属性列表如下：
+#### 自定义属性列表如下：
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
